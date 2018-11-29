@@ -1,0 +1,534 @@
+p,h1,h2,h3,h4,h5,h6,input,a,address,textarea,button,b,xp ,li,enter,figcaption,th,td,caption{
+    font-family: 'Cairo', sans-serif  !important;
+}
+
+
+caption{
+    font-size: 22px;
+    background-color: rgb(63, 166, 201);
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.media {
+    width: 2.5%;
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 1%;
+    z-index: 5;
+}
+
+.media a img{
+    width: 100%;
+    height:100%;
+    opacity: .6;
+    margin-bottom: 10%;
+}
+
+.media img:hover{
+    opacity: .95;
+
+}
+
+.header {
+    background-color: rgb(63, 166, 201);
+    opacity: .8;
+    z-index: -1;
+}
+.header img {
+    width: 100%;
+    opacity: .6;
+}
+
+.header .maintext h1,p{
+    color: white;
+    text-align: center;
+    direction: rtl;
+}
+
+.header .maintext h1{
+    font-size: 280%;
+    
+}
+.header .maintext p{
+    font-size:160%;
+    
+}
+
+.header .maintext{
+    width: 60%;
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+    z-index: 100;
+}
+
+.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(63, 166, 201);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav li {
+    float: right;
+    margin: 0;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.act) {
+    background-color: #111;
+}
+
+.nav .act {
+    background-color: #333;
+}
+
+.bar1 {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(30, 143, 255, 0.185);
+    z-index: 9999;
+
+
+}
+
+
+.bar1 .firstlist{
+    width: 230px;
+    height: 180px;
+    margin-right: 80px;
+    margin-top: 20px;
+    float: right;
+    border-right: 2px solid rgb(60, 179, 114);
+
+    
+}
+
+
+
+.bar1 .firstlist h2{
+    text-align:center;
+    font-size: 18px;
+    color: rgb(55, 68, 109);
+    
+}
+
+.bar1 .firstlist p{
+    text-align: right;
+    font-size: 16px;
+    color: rgb(125, 30, 214);
+}
+
+
+
+.bar1 .firstlist img{
+    width: 60px;
+    height: 60px;
+    opacity: .98;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    float: right;
+
+}
+
+
+.bar1 .firstlist h2{
+    position: relative;
+    right: 5px;
+    top: 5px;
+}
+
+.bar1 .firstlist p{
+    position: relative;
+    right: 25px;
+    top: 10px;
+    direction: rtl;
+
+}
+.list {
+    height: 450px;
+    width: 100%;
+    z-index: 99999;
+
+}
+
+
+.list .box {
+    width: 23%;
+    height: 150px;
+    float: right;
+    margin-bottom: 30px;
+    border: 2px solid rgb(60, 179, 114);
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 90px;
+    
+    
+}
+
+.list .box:hover{
+    background-color: rgba(127, 174, 221, 0.363);
+    
+}
+
+.list .box img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    right: -180px;
+   
+    
+   
+}
+
+.list .box h2{
+    font-size: 22px;
+    direction: rtl;
+    float: right;
+    position: relative;
+    top: -10px;
+    right: 120px;
+    color: rgb(72, 129, 72);
+    
+}
+b{
+    font-size: 26px;
+}
+.list .box p {
+    width: 180px;
+    height: 120px;
+    font-size: 14px;
+    text-align: justify;
+    direction: rtl;
+    position: relative;
+    top: -80px;
+    right: -5px;
+    color:rgb(37, 130, 161);  
+}
+
+.services{
+    width: 100%;
+    height: 550px;
+    background-color: rgba(60, 179, 114, 0.61) ;
+    padding-top: 60px;
+    
+
+}
+
+.services h4,p{
+    color: antiquewhite;
+}
+ul{
+    list-style-type: circle;
+    float: right;
+    margin-left: 100px;
+}
+ul li {
+    font-size:20px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.services img{
+    width: 30%;
+    float: right;
+    margin: 60px;
+    opacity: .8;
+    z-index: 566665;
+}
+.s-data{
+    float: left;
+    width: 60%;
+}
+
+.s-data h4{
+    font-size: 20px;
+}
+.services h3{
+    direction: rtl;
+    font-size: 28px;
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+bar2 {
+    width: 100%;
+    height: 250px;
+}
+
+.bar2 .rect {
+    width: 25%;
+    height: 250px;
+    float: right;
+    opacity: .8;
+}
+
+.bar2 .rect:hover {
+    opacity: 1;
+}
+
+.bar-text {
+    width: 200px;
+    padding-right: 20px;
+    margin-right: 40px;
+    text-align: right;
+    text-indent: 0px;
+    
+}
+.bar2 .one {
+    background-color: rgba(255, 99, 71, 0.897);
+    border-top: 3px solid rgb(30, 143, 255);
+}
+
+.bar2 .two {
+    background-color: rgba(255, 166, 0, 0.884);
+    border-top: 3px solid rgb(60, 179, 114);
+}
+
+.bar2 .three {
+    background-color: rgba(30, 143, 255, 0.877);
+    border-top: 3px solid rgb(255, 99, 71);
+}
+
+.bar2 .four {
+    background-color: rgba(60, 179, 114, 0.897);
+    border-top: 3px solid rgb(255, 166, 0);
+}
+
+.textarea{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+
+}
+
+.sections{
+    width: 100%;
+    height: 880px;
+    background-color: rgba(207, 207, 207, 0.199);
+    margin-top: 250px;
+}
+
+.sections .sec{
+    width: 25%;
+    height: 250px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    top: 50px;
+    right: 10%;
+    border-bottom: 2px solid rgb(183, 221, 107);
+}
+.sections center>h2,h3{
+    color: rgb(161, 18, 18);
+}
+.sections .sec:hover{
+   background-color: rgba(207, 207, 206, 0.548);
+}
+
+.sections .sec img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 35%;
+    padding: 10px;
+}
+
+.sections .sec p{
+    color: rgb(194, 152, 152);
+    font-size: 18px;
+    position: relative;
+    top: -40px;
+    padding: 10px;
+}
+
+.sections .sec h2{
+    color: rgb(194, 152, 152);
+    font-size: 18px;
+    position: relative;
+    top: -15px;
+    left: 39%;
+}
+
+.doctors{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(63, 166, 201, 0.301);
+    margin-top: -25px;
+}
+.doctors h1{
+    color: rgb(34, 116, 148);
+}
+
+.contact{
+    width: 98.8%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.copy-r{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(63, 166, 201);
+
+}
+.copy-r p {
+color: rgb(255, 255, 255);
+font-size: 15px;
+text-align: center;
+padding-top: 15px;
+
+}
+
+
+.con-right {
+    float: right;
+    width: 30%;
+    text-align: right;
+    padding-right: 40px;
+    
+}
+.con-left {
+    float: left;
+    width: 65%;
+}
+.contact-form{
+    float: right;
+    width: 70%;
+}
+.contact-form input{
+    width: 45%;
+    height: 40px;
+    border: solid  1px skyblue;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.contact-form input:focus {
+    border: solid  2px skyblue;
+}
+.contact-form textarea {
+    width: 94.5%;
+    height: 150px;
+    border: solid  1px skyblue;
+    border-radius: 5px;
+    margin-top: 20px;  
+    padding-right: 10px;
+    resize: none;
+
+}
+.contact-form textarea:focus {
+    border: solid  2px skyblue;
+}
+
+address{
+    font-size: 13px;
+}
+.contact-form button {
+    width: 80px;
+    padding: 5px;
+    background-color:skyblue;
+    border: solid 1px #fff;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.contact-form button:hover{
+    background-color: rgb(57, 87, 99);
+}
+.contact-form #email{
+    width: 94.5%;
+
+}
+.con-icon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.icon {
+    width: 30%;
+    float: right;
+}
+.info {
+    padding-top: 25px;
+    float: left;
+    width: 70%;
+    line-height: 10px;
+}
+.contact center>h1 {
+    color: #000;
+}
+.contact center>h3 {
+color: rgb(41, 37, 37);
+}
+.doc{
+    float: right;
+    margin-right: 50px;
+}
+.doc img{
+    width:200px;
+    height: 200px;
+}
+.doc figure>figcaption{
+    text-align: center;
+}
+
+
+
+
+.doctors-table #doctors-t {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 200px;
+    table-layout: auto;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.doctors-table #doctors-t td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.doctors-table #doctors-t td{
+    text-align: center;
+}
+.doctors-table #doctors-t tr:nth-child(even){background-color: #f2f2f2;}
+
+.doctors-table #doctors-t tr:hover {background-color: #ddd;}
+
+.doctors-table #doctors-t th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(63, 166, 201);
+    color: white;
+}
